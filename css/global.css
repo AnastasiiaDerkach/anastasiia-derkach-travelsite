@@ -1,0 +1,139 @@
+/* Reset styles */
+html, body, div, h1, h2, h3, p, img, ul, li, a, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    font-family: "Verdana", sans-serif;
+    line-height: 1.6;
+  }
+  .main-nav__title{
+    font-size: 1.25rem;
+    }
+    .main-cotainer {
+        overflow: hidden; 
+        background-color: #FEFAF5;
+        margin: 0;
+        padding: 0;
+    }
+    .main-content {
+        padding-top: 5%;
+    }
+    .main-block a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .main-block a:hover {
+        color: #DB7A4E;
+    }
+    
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Styles */
+  header {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    background-color: #FFFFFF;
+    color: #335576;
+    padding: 1% 5% 1% 5%;
+    z-index: 100;
+  }
+  
+  .main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-nav__menu {
+    display: inline-flex;
+    flex-direction: row;
+    gap: 1.45rem;
+    list-style: none;
+  }
+  .main-nav__menu a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .main-nav__menu a:active {
+    -webkit-text-decoration: underline #DB7A4E 2px;
+            text-decoration: underline #DB7A4E 2px;
+  }
+  
+  main {
+    position: relative;
+    padding-top: 5%;
+  }
+  .footer {
+    background-color: #FEFAF5;
+    color: #335576;
+}
+.footer__footer-container{
+    display: flex;
+    width: 100%;
+    text-align:left;
+    align-items: center;
+    margin-top: 7%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+
+    p {
+        font-size: small;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+}
+
+p.footer-text__color {
+    color: #DB7A4E;
+    word-spacing: 4.6875rem;
+    margin-bottom: 1%;
+}
+
+.footer-text___openhours span {
+    margin-right: 3.7rem; 
+}
+.footer__icons {
+ width: 100%;
+ height: auto;
+ margin-top: 12%
+}
+.footer__icon {
+    max-width: 20px;
+    height: 20px;
+    margin-right: 7%;
+    margin-top: 20%;
+}
+.footer__icons img {
+    margin-right:1.875rem;
+    margin-top: 7%;
+}
+
+.footer__contact {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer__contact a {
+    color: inherit;
+    text-decoration: none;
+}
+.footer__openhour {
+    margin-left: 20%;
+}
+.footer__social{
+    margin-left: 10%;
+}
+

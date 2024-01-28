@@ -1,0 +1,84 @@
+
+#main{
+display: flex;
+width: 100vw;
+height: 100vh;
+background-size: 100%;
+background-position: center;
+background-size: cover;
+}
+
+main.greece {
+    background-image: url("../assets/images/greece.jpg");
+}
+main.hawaii {
+    background-image: url("../assets/images/hawaii.jpg");
+}
+main.iceland {
+    background-image: url("../assets/images/iceland.jpg");
+}
+
+div.main__toptitle {
+    margin: 0;
+    padding: 0;
+    float: left;
+    position: absolute;
+    h1 {
+        color: #FEFAF5;
+        font-size: 4rem;
+        font-weight: bold;
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+}
+
+.main-container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.main-card__friday,
+.main-card__saturday,
+.main-card__sunday {
+    width: 50vh;
+    height: 55vh;
+    background-color: white;
+    border-radius: 1%;
+    padding: 2%;
+    margin-left: 5%;
+    text-align: center;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.main-greece__subtitle {
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.main-greece__menu {
+    list-style: none;
+    padding: 0;
+}
+
+.main-menu-list {
+    background-color: #FEFAF5;
+    padding: 5%;
+    margin: 10% 0%;
+}
+
+
+.footer__footer-container{
+    display: flex;
+    width: 100%;
+    text-align:left;
+    align-items: center;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+
